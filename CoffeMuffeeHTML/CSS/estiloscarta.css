@@ -1,44 +1,144 @@
-.barraarriba{
+
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+.izquierda{
+    background-image: url("../imagenes/fondocarta.png");
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid black;
+    width: 40%;
+    height: 1000px;
+}
+
+.derecha{
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+    flex-direction: column;
+}
+
+.cuadrado{
+    box-shadow: 15px 5px 10px #48529944;
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.primerafila{ 
+    display: flex;
+    
+}
+.segundafila{
+    display: flex;
+}
+
+.tercerafila{
+    display: flex;
+}
+
+.boton{
+	position: relative;
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+	max-width: 320px;
+	height: 30px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	color:rgb(0, 0, 0);
+	cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	box-shadow:inset 0 0 0 1px #76584581;
+	text-decoration: none;
+	transition: all ease 1s;
+	background:#765845;
+}
+ 
+.boton:after, .boton:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+.boton:before{
+	left: -48%;
+}
+ 
+.boton:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#b4886c
+}
+ 
+.boton:hover:after, .boton:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 1s;
+}
+ 
+.boton:hover:after{
+	right: 130%;
+}
+ 
+.boton:hover:before{
+	left: 130%;
+}
+	
+.cuadrado1:hover {filter: blur(5px);}
+.cuadrado1{
+background-image: url("../imagenes/cafe-solo.png");
+background-size: cover;
+
+}
+.cuadrado2:hover {filter: blur(5px);}
+.cuadrado2{
+    background-image: url("../imagenes/cafe_irlandes.png");
+    background-size: cover;
+    
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
     width: 100%;
-    height: 10%;
-    background-color: #000000;
-    display: inline-flex;
-}
-
-.logotipo{
-    border-radius: 60px;
-    margin-left: 20%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-.botonheader{
-    width: 5%;
-    margin-top: 2%;
-    margin-left: 7%;
-    height: 10%;
-    padding-top: 0.1%;
-    padding-left: 0.1%;
-    padding-right: 0.1%;
-    background-color: #b39c8c ;
-    border-radius: 10px;
-    font-size: 15px;
+    height: 100%;
+    background-color: #b4886c77;
+    color: #fff;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.cuadrado3{
+    
 }
-
-.botonheader2{
-    width: 10%;
-    margin-top: 3%;
-    margin-left: 40%;
-    height: 10%;
-    padding-top: 0.1%;
-    padding-left: 0.1%;
-    padding-right: 0.1%;
-    background-color: #765845 ;
-    border-radius: 10px;
-    font-size: 15px;
-    text-align: center;
-    letter-spacing: 2.5px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.cuadrado4{
+    
+}
+.cuadrado5{
+    
+}
+.cuadrado6{
+    
 }
