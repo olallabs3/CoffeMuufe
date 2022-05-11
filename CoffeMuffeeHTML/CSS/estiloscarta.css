@@ -1,7 +1,12 @@
 
+body{
+    margin: 0px;
+}
+
 .todo{
     display: flex;
     flex-direction: row;
+    
 }
 .izquierda{
     background-image: url("../imagenes/fondocarta.png");
@@ -15,7 +20,7 @@
 .derecha{
     display: flex;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
     flex-direction: column;
 }
 
@@ -23,8 +28,9 @@
     box-shadow: 15px 5px 10px #48529944;
     width: 200px;
     height: 200px;
-    margin: 5%;
-    border: 1px solid rgba(0, 0, 0, 0.342);
+    margin: 7%;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.062);
 }
 
 .primerafila{ 
@@ -44,7 +50,7 @@
 	display: block;
 	border-radius: 5px;
 	text-align: center;
-	max-width: 320px;
+	width: 100%;
 	height: 30px;
 	margin-bottom: 10px;
 	overflow: hidden;
@@ -95,30 +101,31 @@
 	left: 130%;
 }
 	
-.cuadrado1:hover {filter: blur(5px);}
+
 .cuadrado1{
 background-image: url("../imagenes/cafe-solo.png");
 background-size: cover;
+height: 180px;
 
 }
-.cuadrado2:hover {filter: blur(5px);}
+
 .cuadrado2{
     background-image: url("../imagenes/cafe_irlandes.png");
-    background-size: cover;
-    
+    background-size: contain;
+    height: 180px;
 }
 
 .tooltip {
     position: relative;
     display: inline-block;
-   
+    color: white;
   }
   
   .tooltip .tooltiptext {
+    font-family: Arial, Helvetica, sans-serif;
     visibility: hidden;
-    width: 100%;
-    height: 100%;
-    background-color: #b4886c77;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.534);
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -131,14 +138,105 @@ background-size: cover;
     visibility: visible;
   }
 .cuadrado3{
-    
+    background-image: url("../imagenes/cafe\ ecologico.png");
+background-size: cover;
+height: 180px;
+
 }
 .cuadrado4{
-    
+    background-image: url("../imagenes/muffin\ mermelada.png");
+background-size: cover;
+height: 180px;
+
 }
 .cuadrado5{
-    
+    background-image: url("../imagenes/muffin\ pepitas.png");
+background-size: cover;
+height: 180px;
+
 }
 .cuadrado6{
-    
+    background-image: url("../imagenes/capuchino.png");
+background-size: cover;
+height: 180px;
+
+}
+
+.barraarriba{
+    width: 100%;
+    align-items: center;
+    background-color: #1e1b1e;
+    display: flex;
+   
+}
+.dividir{
+    display: flex;
+    margin-right: 40%;
+    margin-left: 7%;
+}
+.logotipo{
+    border-radius: 60px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.botonheader{
+    border: none;
+    color: #aa7e62;
+    text-decoration: none;
+    font-size: 18px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 3em;
+    width: 11em;
+    margin-left: 5px;
+    margin-right: 10%;
+    padding: 0 2%;
+    font-size: 0.8em;
+    text-align: center;
+    letter-spacing: 2.0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.efectoboton {
+    background-color: #aa7e62; 
+    color: white; 
+    border: 2px solid #765845;
+  }
+
+  .efectoboton:hover {
+    background-color: #765845;
+    color: white;
+  }
+
+  .barraabajo{
+    background-color: #1e1b1e;
+    display: inline-flex;
+    width: 100%;
+    height: 120px;
+    }
+
+.lema{
+    color: white;
+    width: 34%;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: #1e1b1e;
+}
+
+.contacto{
+    color: white;
+    width: 34%;
+    background-color: #1e1b1e;
+    margin: 1%;
+}
+
+.redes{
+    color: white;
+    width: 33%;
+    background-color: #1e1b1e;
+    margin-left: 4%;
+    margin-top: 2%;
 }
