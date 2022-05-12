@@ -1,9 +1,9 @@
 
 .fotodetalle{
     border: 1px solid black;
-    width: 25%;
-    height: 250px;
-    margin-left: 17%;
+    width: 20%;
+    height: auto;
+    margin-left: 20%;
     margin-top: 3%;
     border-radius: 10px;
     background-image:url("../imagenes/café-bombón.png") ;
