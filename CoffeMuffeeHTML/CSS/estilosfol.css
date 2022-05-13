@@ -55,15 +55,17 @@ body{
     display: inline-flex;
 }
 .fotoizq{
-    margin-left: 5%;
+    
     margin-top: 3.5%;
+    border-radius: 10px;
+    border-style: outset;
 }
 .textoder{
     width: 50%;
     padding: 1%;
-    margin-top: 3.5%;
-    margin-left: 10% ;
-    border: 1px solid black;
+    margin-top: 3%;
+    margin-left: 5% ;
+    
     border-radius: 5px;
 }
 .enunciado{
@@ -87,38 +89,62 @@ a{
 .barra1{
     margin-left: 5%;
     margin-top: 1%;
-    height: 50px;
+    height: 40px;
     width: 88%;
     background-color: #1e1b1e;
+    margin-bottom: 1%;
+    border-radius: 10px;
 }
 
 .barra2{
     margin-left: 5%;
     margin-top: 1%;
-    height: 50px;
+    height: 40px;
     width: 88%;
     background-color: #1e1b1e;
+    border-radius: 10px;
 }
 .segundobloque{
     margin-top: 10px;
-    background-color: #765845;
     width: 98%;
     display: inline-flex;
 
 }
+.primerbloquefondo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 7%;
+}
+.segundobloquefondo{
+    background-color: #765845;
+    margin-left: 5%;
+    margin-right: 7%;
+    border-radius: 10px;
+}
+.tercerbloquefondo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 7%;
+    border-radius: 10px;
+}
+
 .fotoder{
     margin-left: 3%;
     margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border-style: outset;
 }
 
 .textoizq{
     background-color: #765845;
-border-radius: 5px;
-    width: 54%;
+    border-radius: 5px;
+    width: 50%;
     padding: 1%;
     margin-top: 2%;
     margin-left: 5.1% ;
-    border: 1px solid black;
+    margin-right: 4%;
+    
 }
 
 .tercerbloque{
