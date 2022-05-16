@@ -14,7 +14,7 @@ body{
     background-size: cover;
     border: 1px solid black;
     width: 40%;
-    height: 1000px;
+    height: 1200px;
 }
 
 .derecha{
@@ -42,6 +42,10 @@ body{
 }
 
 .tercerafila{
+    display: flex;
+}
+
+.cuartafila{
     display: flex;
 }
 
@@ -156,6 +160,20 @@ height: 180px;
 
 }
 .cuadrado6{
+    background-image: url("../imagenes/capuchino.png");
+background-size: cover;
+height: 180px;
+
+}
+
+.cuadrado7{
+    background-image: url("../imagenes/capuchino.png");
+background-size: cover;
+height: 180px;
+
+}
+
+.cuadrado8{
     background-image: url("../imagenes/capuchino.png");
 background-size: cover;
 height: 180px;
