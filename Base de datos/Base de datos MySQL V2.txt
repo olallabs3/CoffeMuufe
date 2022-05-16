@@ -1,5 +1,4 @@
-diff a/Base de datos/Base de datos MySQL V2.txt b/Base de datos/Base de datos MySQL V2.txt	(rejected hunks)
-@@ -1,68 +0,0 @@
+
 -CREATE TABLE ADDRESS(
 -constraint primary key(ADDRESS_ID),
 -ADDRESS_ID int(20), 
