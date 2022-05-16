@@ -14,7 +14,11 @@ body{
     background-size: cover;
     border: 1px solid black;
     width: 40%;
+<<<<<<< HEAD
     height: 1200px;
+=======
+    height: 1150px;
+>>>>>>> 22f64086cdf5bf7663a3c2d14d1d85174d41edf2
 }
 
 .derecha{
@@ -42,6 +46,9 @@ body{
 }
 
 .tercerafila{
+    display: flex;
+}
+.cuartafila{
     display: flex;
 }
 
@@ -107,14 +114,14 @@ body{
 	
 
 .cuadrado1{
-background-image: url("../imagenes/cafe-solo.png");
+background-image: url("../imagenes/café-bombón.png");
 background-size: cover;
 height: 180px;
 
 }
 
 .cuadrado2{
-    background-image: url("../imagenes/cafe_irlandes.png");
+    background-image: url("../imagenes/cafe-solo.png") ;
     background-size: contain;
     height: 180px;
 }
@@ -143,29 +150,34 @@ height: 180px;
   }
 .cuadrado3{
     background-image: url("../imagenes/cafe\ ecologico.png");
-background-size: cover;
-height: 180px;
+    background-size: cover;
+    height: 180px;
 
 }
 .cuadrado4{
-    background-image: url("../imagenes/muffin\ mermelada.png");
-background-size: cover;
-height: 180px;
+    background-image: url("../imagenes/capuchino.png") ;
+    background-size: cover;
+    height: 180px;
 
 }
 .cuadrado5{
-    background-image: url("../imagenes/muffin\ pepitas.png");
-background-size: cover;
-height: 180px;
+    background-image: url("../imagenes/muffin_normal.png");
+    background-size: cover;
+    height: 180px;
 
 }
 .cuadrado6{
-    background-image: url("../imagenes/capuchino.png");
-background-size: cover;
-height: 180px;
+    background-image: url("../imagenes/muffinchocolate.png");
+    background-size: cover;
+    height: 180px;
 
 }
+.cuadrado7{
+    background-image: url("../imagenes/muffinpepitas.png");
+    background-size: cover;
+    height: 180px;
 
+<<<<<<< HEAD
 .cuadrado7{
     background-image: url("../imagenes/capuchino.png");
 background-size: cover;
@@ -180,6 +192,15 @@ height: 180px;
 
 }
 
+=======
+}
+.cuadrado8{
+    background-image: url("../imagenes/muffin\ mermelada.png") ;
+    background-size: cover;
+    height: 180px;
+
+}
+>>>>>>> 22f64086cdf5bf7663a3c2d14d1d85174d41edf2
 .barraarriba{
     width: 100%;
     align-items: center;
