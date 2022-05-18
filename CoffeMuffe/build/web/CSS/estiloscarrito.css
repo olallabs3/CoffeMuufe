@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+
+.izquierda{
+    height: fit-content;
+    width: 70%;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.enunciado{
+    font-size: 20px;
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.cabecera{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.derecha{
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 5%;
+    padding: 5%;
+    height: 101px;
+    text-align: center;
+}
+.product{
+    margin-left: 20%;
+    margin-right: 7%;
+}
+
+.PrecioTotal{
+    font-size: 30px;
+    
+}
+.price{
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+.quantity{
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+.total{
+    width: 200px;
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+.btn{
+    margin-top: 20%;
+    width: 80%;
+}
+
+.tablaprod{
+    margin-top: 2%;
+    width: 85%;
+    height: 5em;
+    margin-left: 10%;
+    background-color: brown;
+    margin-bottom: 2%;
+}
+
+.barraarriba{
+    width: 100%;
+    align-items: center;
+    background-color: #1e1b1e;
+    display: flex;
+   
+}
+.dividir{
+    display: flex;
+    margin-right: 40%;
+    margin-left: 7%;
+}
+.logotipo{
+    border-radius: 60px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.botonheader{
+    border: none;
+    color: #aa7e62;
+    text-decoration: none;
+    font-size: 18px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 3em;
+    width: 11em;
+    margin-left: 5px;
+    margin-right: 10%;
+    padding: 0 2%;
+    font-size: 0.8em;
+    text-align: center;
+    letter-spacing: 2.0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.efectoboton {
+    background-color: #aa7e62; 
+    color: white; 
+    border: 2px solid #765845;
+  }
+
+  .efectoboton:hover {
+    background-color: #765845;
+    color: white;
+  }
+
+  .barraabajo{
+    background-color: #1e1b1e;
+    display: inline-flex;
+    width: 100%;
+    height: 120px;
+    margin-top: 5%;
+}
+
+.lema{
+    color: white;
+    width: 34%;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: #1e1b1e;
+}
+
+.contacto{
+    color: white;
+    width: 34%;
+    background-color: #1e1b1e;
+    margin: 1%;
+}
+
+.redes{
+    color: white;
+    width: 33%;
+    background-color: #1e1b1e;
+    margin-left: 4%;
+    margin-top: 2%;
+}
